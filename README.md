@@ -81,3 +81,32 @@ start new command prompt
 
 
 Now type some text on producer window, hit ENTER key and see the consumer window for susbcribe
+
+
+# Local Jupyter lab without cluster
+
+```
+
+pip3 install --upgrade pip
+
+pip install jupyterlab
+
+pip install pyspark
+pip install findspark
+
+```
+
+Every day
+
+start button, type mini conda, launch cmd on mini conda
+```
+
+
+
+(base) c:\users\yourname> conda activate bigdata
+
+(bigdata) c:\users\yourname> jupyter lab
+
+
+ 
+```
