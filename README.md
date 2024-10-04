@@ -61,4 +61,23 @@ describe topic
 %KAFKA_HOME%\bin\windows\kafka-topics --describe --topic quickstart-events --bootstrap-server localhost:9092
 ```
 
+Start a producer to send records
 
+start new command line on cmd, you will see a prompt >  there you could text and hit ENTER
+
+```
+%KAFKA_HOME%\bin\windows/kafka-console-producer --topic quickstart-events --bootstrap-server localhost:9092
+```
+
+
+start a console consumer on new cmd
+
+start new command prompt
+
+
+```
+%KAFKA_HOME%\bin\windows/kafka-console-consumer --topic quickstart-events --bootstrap-server localhost:9092
+```
+
+
+Now type some text on producer window, hit ENTER key and see the consumer window for susbcribe
