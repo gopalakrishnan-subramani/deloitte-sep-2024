@@ -112,3 +112,31 @@ start button, type mini conda, launch cmd on mini conda
 
  
 ```
+
+# Hadoop Winutils for Windows
+
+Hadoop deployment made for linux, few commands not supported by windows
+
+Free drivers for Windows avaiable
+
+https://github.com/steveloughran/winutils
+
+
+
+Download zip file
+
+Extract the downloaded zip file
+
+Copy the folder hadoop-3.0.0 to c:\hadoop-3.0.0
+
+'''
+Set Envrionment variable 
+
+start menu -> type env -> run environment variable., add to user variable
+
+HADOOP_HOME c:\hadoop-3.0.0 on Windows
+
+ADD c:\hadoop-3.0.0\bin to Windows PATH environment Variable
+'''
+
+
