@@ -87,6 +87,8 @@ Now type some text on producer window, hit ENTER key and see the consumer window
 
 ```
 
+conda create bigdata python=3.10
+
 pip3 install --upgrade pip
 
 pip install jupyterlab
