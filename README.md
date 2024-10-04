@@ -139,4 +139,28 @@ HADOOP_HOME c:\hadoop-3.0.0 on Windows
 ADD c:\hadoop-3.0.0\bin to Windows PATH environment Variable
 '''
 
+# Setup Local Spark Development
+
+
+https://spark.apache.org/downloads.html
+
+download and extract the zip file   https://www.apache.org/dyn/closer.lua/spark/spark-3.5.3/spark-3.5.3-bin-hadoop3.tgz
+
+Extract spark-3.5.3-bin-hadoop3.tgz
+
+copy the extracted subfolder  spark-3.5.3-bin-hadoop3   into c:\spark-3.5.3-bin-hadoop3  
+
+ensure that the folder you copy has all files
+
+
+Set the envrionment path
+
+Start -> search env -> launch envrionment variebles (user variables)
+
+add SPARK_HOME with path c:\spark-3.5.3-bin-hadoop3
+
+
+
+
+
 
