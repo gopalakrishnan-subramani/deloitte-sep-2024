@@ -160,6 +160,35 @@ Start -> search env -> launch envrionment variebles (user variables)
 add SPARK_HOME with path c:\spark-3.5.3-bin-hadoop3
 
 
+# START SPARK CLUSTER
+
+Command you may need to change based on ip address or use localhost
+
+We start master with two workers, in production, the workers shall be from different machines.. 
+
+Start master
+
+```
+cd %SPARK_HOME%
+
+bin\spark-class org.apache.spark.deploy.master.Master
+```
+
+This start spark master  spark://192.168.0.199:7077, your ip it binds to, copy the master url, use in below command
+
+Spark UI /DAG/Stages/etc start at port http://localhost:8080 
+
+start worker 1
+```
+cd %SPARK_HOME%
+bin\spark-class org.apache.spark.deploy.worker.Worker spark://192.168.0.199:7077
+```
+
+start worker 2
+```
+cd %SPARK_HOME%
+bin\spark-class org.apache.spark.deploy.worker.Worker spark://192.168.0.199:7077
+```
 
 
 
