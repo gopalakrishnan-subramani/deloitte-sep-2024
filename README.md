@@ -41,4 +41,24 @@ cd %KAFKA_HOME%
 %KAFKA_HOME%\bin\windows\kafka-server-start.bat %KAFKA_HOME%\config\server.properties
 ```
 
+## KAFKA EXAMPLE COMMANDS 
+
+create topic
+```
+%KAFKA_HOME%\bin\windows\kafka-topics  --create --topic quickstart-events --bootstrap-server localhost:9092
+```
+
+list topic
+
+```
+%KAFKA_HOME%\bin\windows\kafka-topics --list   --bootstrap-server localhost:9092
+```
+
+
+describe topic
+
+```
+%KAFKA_HOME%\bin\windows\kafka-topics --describe --topic quickstart-events --bootstrap-server localhost:9092
+```
+
 
