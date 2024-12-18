@@ -195,6 +195,15 @@ cd %SPARK_HOME%
 bin\spark-class org.apache.spark.deploy.worker.Worker spark://192.168.0.199:7077
 ```
 
+```
+
+spark-submit   --master spark://172.19.77.183:7077   --executor-memory 2g --num-executors 4 --executor-cores 2 myspark-app.py
+
+set envrionemnt variables for driver and executors
+PYSPARK_DRIVER_PYTHON=C:\Users\yourname\miniconda3\envs\bigdata 
+PYSPARK_PYTHON=C:\Users\yourname\miniconda3\envs\bigdata
+
+```
 
 
 
