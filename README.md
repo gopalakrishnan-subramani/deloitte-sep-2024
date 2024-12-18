@@ -85,7 +85,10 @@ Now type some text on producer window, hit ENTER key and see the consumer window
 
 # Local Jupyter lab without cluster
 
+[Miniconda3-py310_24.5.0-0-Windows-x86_64.exe](https://repo.anaconda.com/miniconda/Miniconda3-py310_24.5.0-0-Windows-x86_64.exe)
+
 ```
+
 
 conda create --name bigdata python=3.10
 
